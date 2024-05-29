@@ -12,6 +12,7 @@ button {
   border-radius: 10px;
   padding: 5px;
   background-color: aquamarine;
+  align-self: center;
 }
 
 ul {
@@ -32,4 +33,21 @@ ul {
 
 .message-timestamp {
   font-size: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input {
+  height: 1.5rem;
 }
